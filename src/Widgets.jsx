@@ -2,7 +2,7 @@ import React from 'react';
 import {
   TwitterTimelineEmbed,
   TwitterShareButton,
-  TwitterEmbed,
+  TwitterTweetEmbed,
 } from 'react-twitter-embed';
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -17,7 +17,7 @@ function Widgets() {
       </div>
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
-        <TwitterTimelineEmbed tweetId={'1313540152283725825'} />
+        <TwitterTweetEmbed tweetId={'1313540152283725825'} />
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="kailashmaden"

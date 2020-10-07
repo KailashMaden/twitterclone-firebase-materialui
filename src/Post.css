@@ -12,6 +12,8 @@
 
 .post__body > img {
   border-radius: 20px;
+}
+.post__body .imgDetail {
   width: 800px;
   height: 400px;
 }
